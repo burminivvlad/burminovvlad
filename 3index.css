@@ -1,0 +1,56 @@
+div{
+  border: 1px solid blue;
+}
+#title{
+  width:30%;
+}
+#navigation, #introduction,  #main, #footer{
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 0;
+  text-align: center;
+}
+#Content{
+  width: 51%;
+  display: inline-block;
+  padding: 5% 2%;
+  text-align:  justify;
+}
+#Sidebar{
+  width: 40%;
+  display: inline-block;
+  padding: 5% 2%;
+}
+#main{
+  border: none;
+  padding: 0;
+}
+
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	width: 100%;
+}
+
+li {
+	float: ;
+	width: auto;
+}
+
+a {
+	background: #30A6E6;
+	color: #FFFFFF;
+  display: block;
+  font: bold 13px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+li:hover a {
+	background: #000000;
+}
+#introduction{background-color:blue}
